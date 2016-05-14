@@ -1,0 +1,9 @@
+/* 自定义CSS */
+.logo img{border-radius:9em;width:60px;height:60px;top:15px;left:20px}
+.page-navigator{list-style-type:none}
+.page-navigator li{display:inline-block;margin:0 4px}
+.page-navigator li a{padding:15px 15px!important}
+.p-text pre,code{background:#f3f3f0;font-family:Menlo,Monaco,Consolas,"Lucida Console","Courier New",monospace;font-size:1em}
+.p-text code{padding:2px 4px;color:#b94a48}
+.p-text pre{padding:30px 30px;border:1px solid #eee;overflow:auto;max-height:400px}
+.p-text pre code{padding:0;color:#444}

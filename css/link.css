@@ -1,0 +1,39 @@
+/*网址页样式*/
+
+
+.hp{padding:1em;}
+.hp li{float:left;position:relative;margin:0 1em 1em 0;}
+.hp a{border-radius:.5em;
+	height:90px;width:140px;
+	float:left;padding:0 10px 0 90px;}
+.hp a:hover{}
+.hp li i{position:absolute;top:0;left:0;}
+.hp li img{width:60px;height:60px;
+	background:#EEE;border-radius:9em;
+	position:absolute;top:15px;left:15px;}
+.hp li img.def{background:none;}
+
+
+.hp a[href]:hover{background-color:rgba(230,244,250,.5);}
+
+.hp h2{padding:50px 0 10px;}
+
+.hp .hr{display:block;clear:both;float:none;}
+
+.hp .bad{opacity:.3;
+	-webkit-filter:grayscale(100%); 
+	   -moz-filter:grayscale(100%); 
+		-ms-filter:grayscale(100%); 
+		 -o-filter:grayscale(100%); 
+			filter:grayscale(100%); 
+			filter:gray;}
+
+.hp h3{font-size:1.3em;line-height:46px;padding-top:8px;}
+.hp span{color:#999;font-size:.8em;display:none}
+/*.hp span{position:absolute;top:100%;left:0;width:100%;
+	font-size:.8em;text-align:center;
+	background:#222;color:#FFF;
+	opacity:0;}*/
+.hp a:hover span{opacity:1;}
+
+.hp p{color:#999;font-size:.8em;}
